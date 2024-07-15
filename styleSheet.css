@@ -2,3 +2,8 @@
 h1Test {
     color: red;
 }
+
+li {
+    display: inline;
+}
+
