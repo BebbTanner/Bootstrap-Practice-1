@@ -1,28 +1,29 @@
-/*This is a class for my header1. This should change the font colo but, it is not working.*/
-h1Test {
-    color: red;
+/*This is the current styling for the navigation bar that runs across the top of the webpage.*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #20b641;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*I am not really sure how but, this class is controlling the color for the last item on the navbar.*/
+.active {
+  background-color: #04AA6D;
+}
