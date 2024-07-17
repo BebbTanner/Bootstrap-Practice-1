@@ -16,6 +16,10 @@ html, body{
     padding-bottom: 100px;
 }
 
+.d-flex{
+    color: black;
+}
+
 #footer{
     text-align: right;
     color: white;
