@@ -17,6 +17,7 @@ html, body{
 }
 
 #footer{
+    text-indent: 100px;
     text-align: right;
     color: white;
     position: relative;
