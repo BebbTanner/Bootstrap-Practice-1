@@ -7,16 +7,4 @@
     text-align: center;
 }
 
-.flex-base {
-    display: flex;
-    background-color: #262b30;
-  }
-
-.flex-base > div {
-    background-color: brown;
-    color: #ffffff;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    align-items: center;
-  }
+.p-2
