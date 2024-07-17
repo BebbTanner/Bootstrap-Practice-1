@@ -17,13 +17,17 @@ html, body{
 }
 
 #footer{
-    text-indent: 100px;
     text-align: right;
     color: white;
     position: relative;
+    padding-right: 20px;
     height: 100px;
     margin-top: -100px;
     clear: both;
+}
+
+.nav-container{
+    padding-bottom: 50px;
 }
 
 .nav-container a:hover{
