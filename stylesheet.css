@@ -40,12 +40,14 @@ html, body{
 }
 
 #github-box{
-    width: 20%;
+    height: 125px;
+    width: 200px;
     background-color: black;
     color: white;
 }
 
 #projects-box{
+    width: 1000px;
     background-color: blue;
     color: white;
 }
@@ -53,7 +55,7 @@ html, body{
 #programing-box{
     text-align: left;
     height: 125px;
-    width: 80%;
+    width: 1215px;
     background-color: purple;
     color: white;
 }
